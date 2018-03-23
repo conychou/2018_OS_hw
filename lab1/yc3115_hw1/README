@@ -1,0 +1,7 @@
+AUTHOR: YuLin Chou (yc3115)
+LANGUAGE: Java
+
+INSTRUCTION:
+1.mkdir classes		/*Create class file foler*/
+2.javac -sourcepath src -d classes src/packagelinker/Linker.java	/*Compile Linker.java and put its class to class folder*/
+3.java -cp classes/ packagelinker.Linker (input file)		/*JVM run Linker class*/

@@ -1,0 +1,10 @@
+AUTHOR: YuLin Chou (yc3115)
+LANGUAGE: Java
+
+INSTRUCTION:
+1.mkdir classes		/*Create class file foler*/
+2.javac -sourcepath src/ -d classes src/Main.java		/*Compile Main.java and put its class to class folder*/
+5.java -cp classes Main (input file)		/* Execute Main with input file */
+
+Note: you can open debug log by setting Logger.java 
+		line 3, private static boolean isEnable = true;
